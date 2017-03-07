@@ -1569,13 +1569,16 @@ input[type="submit"] {
   overflow: hidden;
 }
 .client-item {
-  padding: 15px 0;
+  /*padding: 15px 10px;*/
+  margin: 0px 20px;
   text-align: center;
 }
 .client-item a {
   display: block;
 }
 .client-item img {
+  position: static;
+  height: 80px;
   opacity: 0.5;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
@@ -1585,6 +1588,7 @@ input[type="submit"] {
   transition: all .6s ease;
 }
 .client-item img:hover {
+  position: static;;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   filter: gray;
