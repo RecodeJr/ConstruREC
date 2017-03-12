@@ -1044,7 +1044,7 @@ input[type="submit"] {
   margin-bottom: 30px;
 }
 .company-ever .company-bg {
-  background-image: url("../img/featured/img-1.png");
+  background: #fff;
 
   overflow: hidden;
 }
@@ -1052,7 +1052,7 @@ input[type="submit"] {
   background: #202E31;
   color: #fff;
   float: right;
-  padding: 40px;
+  padding: 35px;
   position: relative;
   margin-right: -15px;
 }
@@ -1075,11 +1075,11 @@ input[type="submit"] {
   position: absolute;
   content: "";
   top: -12px;
-  left: -29px;
-  width: 54px;
+  left: -59px;
+  width: 74px;
   height: 106%;
   background: #202E31 none repeat scroll 0% 0%;
-  transform: rotate(367deg);
+  transform: rotate(364deg);
 }
 #portfolio {
   padding-top: 80px;
@@ -1294,6 +1294,7 @@ input[type="submit"] {
   text-align: center;
   overflow: hidden;
   position: relative;
+  margin-top: 15px;
 }
 .team-member .team-thumbnail {
   display: block;
