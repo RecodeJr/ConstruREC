@@ -1044,7 +1044,8 @@ input[type="submit"] {
   margin-bottom: 30px;
 }
 .company-ever .company-bg {
-  background: #FAFAFA;
+  background-image: url("../img/featured/img-1.png");
+
   overflow: hidden;
 }
 .company-ever .content {
@@ -1073,12 +1074,12 @@ input[type="submit"] {
 .company-ever .content:before {
   position: absolute;
   content: "";
-  top: -16px;
-  left: -23px;
-  width: 50px;
-  height: 107%;
-  background: #FAFAFA none repeat scroll 0% 0%;
-  transform: rotate(370deg);
+  top: -12px;
+  left: -29px;
+  width: 54px;
+  height: 106%;
+  background: #202E31 none repeat scroll 0% 0%;
+  transform: rotate(367deg);
 }
 #portfolio {
   padding-top: 80px;
